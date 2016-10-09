@@ -14,6 +14,10 @@ namespace TFSDeleteWorkspaces
         //a new line of work added
         // a new line again added to simulate
         //a new line added byh repo2 owners
+        //this is also half ready
+        /// <summary>
+       
+        /// </summary>
         private static string _tfsUrl = "http://tfsRomiod.ds.com:8080/tfs/cvr";
         
         static void Main(string[] args)
