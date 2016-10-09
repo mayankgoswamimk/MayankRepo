@@ -17,7 +17,7 @@ namespace TFSDeleteWorkspaces
         {
             string _computerName = args[0];
 
-            TfsTeamProjectCollection tfs = new TfsTeamRomioHelloCommentAddedProjectCollection(new Uri(_tfsUrl));
+            TfsTeamProjectCollection tfs = new TfsTeamHelloRomiCommentAddedadfsaProjectCollection(new Uri(_tfsUrl));
             tfs.EnsureAuthenticated();
             var service = tfs.GetServiceVersionHistoryModifiedControlServer>();
             Workspace[] workspace = service.QueryWorkspaces(null,"tfsbuildmachinecvr",null);
