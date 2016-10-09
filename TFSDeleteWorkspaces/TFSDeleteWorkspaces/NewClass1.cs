@@ -13,7 +13,7 @@ namespace TFSDeleteWorkspaces
         // a thir line also added by me
         //another change added by me
         //kar lo batta
-        //after last push i am added another line
-        //add the feature of for soft reset
+        //after last push i am added another line       
+        //hello i can push the needed
     }
 }
