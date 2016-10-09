@@ -10,12 +10,13 @@ namespace TFSDeleteWorkspaces
 {
     class Program
     {
-        private static string _tfsUrl = "http://tfsd.ds.com:8080/tfs/cvr";
+        private static string _tfsUrl = "http://tfsRomiod.ds.com:8080/tfs/cvr";
         
         static void Main(string[] args)
         {
             string _computerName = args[0];
-            TfsTeamProjectCollection tfs = new TfsTeamPtestingCollection(new Uri(_tfsUrl));
+
+            TfsTeamProjectCollection tfs = new TfsTeamRomioHelloCommentAddedProjectCollection(new Uri(_tfsUrl));
             tfs.EnsureAuthenticated();
             var service = tfs.GetService<VersionControlServer>();
             Workspace[] workspace = service.QueryWorkspaces(null,"tfsbuildmachinecvr",null);
