@@ -10,7 +10,7 @@ namespace TFSDeleteWorkspaces
 {
     class Program
     {
-        private static string _tfsUrl = "http://tfsd.ds.com:8080/tfs/cvr";
+        private static string _tfsUrl = "http://tfsdd.ds.com:8080/tfs/cvr";
         
         static void Main(string[] args)
         {
