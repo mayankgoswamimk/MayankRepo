@@ -8,5 +8,6 @@ namespace TFSDeleteWorkspaces
 {
     class NewClass1
     {
+        //a new commited added half ready
     }
 }
