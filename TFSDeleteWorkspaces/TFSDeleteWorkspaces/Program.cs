@@ -11,6 +11,7 @@ namespace TFSDeleteWorkspaces
     class Program
     {
         //test commit added
+        //ateatr
         private static string _tfsUrl = "http://tfsRomiod.ds.com:8080/tfs/cvr";
         
         static void Main(string[] args)
